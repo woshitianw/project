@@ -25,7 +25,7 @@ public class HelloWorkController {
 	public String testRequestParam(@RequestParam(value="username") String username,
 			@RequestParam(value="age",required=false,defaultValue="0") Integer age) {
 		
-		System.out.println("用户姓名为："+username+"年龄："+age);
+		System.out.println("用户姓名为："+username+"年龄："+age+"!");
 		return "success";
 	}
 }
