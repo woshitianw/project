@@ -11,7 +11,7 @@ public class HelloWorkController {
 	
 	@RequestMapping("/helloword")
 	public String hello() {
-		System.out.println("进入后台控制类");
+		System.out.println("进入后台控制类!!!");
 		return "success";
 	}
 	
